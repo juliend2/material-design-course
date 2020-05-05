@@ -11,6 +11,7 @@ function getStyleUse(bundleFilename) {
     {
       loader: 'sass-loader',
       options: {
+        webpackImporter: false,
         includePaths: ['./node_modules'],
         implementation: require('dart-sass'),
         fiber: require('fibers'),
