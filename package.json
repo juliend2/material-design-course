@@ -1,5 +1,5 @@
 {
-  "name": "mdc-101-web",
+  "name": "mdc-103-web",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -22,11 +22,9 @@
   "dependencies": {
     "@material/button": "^6.0.0",
     "@material/drawer": "^6.0.0",
-    "@material/icon-button": "^6.0.0",
     "@material/image-list": "^6.0.0",
     "@material/list": "^6.0.0",
     "@material/ripple": "^6.0.0",
-    "@material/textfield": "^6.0.0",
-    "@material/top-app-bar": "^6.0.0"
+    "@material/textfield": "^6.0.0"
   }
 }

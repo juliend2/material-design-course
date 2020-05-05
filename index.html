@@ -5,34 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shrine (MDC Web Example App)</title>
   <link rel="shortcut icon" href="https://material.io/favicon.ico">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
   <link rel="stylesheet" href="bundle-login.css">
 </head>
 <body class="shrine-login">
-
-
-  <header class="mdc-top-app-bar">
-
-    <div class="mdc-top-app-bar__row">
-
-      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-        <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
-        <span class="mdc-top-app-bar__title">Page title</span>
-      </section>
-
-      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
-        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
-        <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
-      </section>
-
-    </div>
-
-  </header>
-
-
   <section class="header">
     <svg class="shrine-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
        width="48px" height="48px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000" focusable="false">
@@ -56,11 +33,10 @@
     </label>
     <label class="mdc-text-field mdc-text-field--filled password">
       <span class="mdc-text-field__ripple"></span>
-      <input type="password" class="mdc-text-field__input" aria-labelledby="password-label" name="password" required minlength='8'>
+      <input type="password" class="mdc-text-field__input" aria-labelledby="password-label" name="password" required minlength="8">
       <span class="mdc-floating-label" id="password-label">Password</span>
       <span class="mdc-line-ripple"></span>
     </label>
-
     <div class="button-container">
       <button type="button" class="mdc-button cancel">
         <div class="mdc-button__ripple"></div>
@@ -75,7 +51,6 @@
         </span>
       </button>
     </div>
-
   </form>
 
   <script src="bundle-login.js" async></script>
