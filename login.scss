@@ -1,4 +1,10 @@
+
 @import "./common";
+@import "@material/button/mdc-button";
+@import "@material/textfield/mdc-text-field";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/icon-button/mdc-icon-button";
+
 
 .header {
   text-align: center;
@@ -9,4 +15,22 @@
   height: 150px;
   padding-top: 80px;
   fill: currentColor;
+}
+
+.username,
+.password {
+  display: flex;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
 }
